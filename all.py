@@ -76,7 +76,7 @@ async def main():
         user_ids = file.read().splitlines()
 
     # proxy from file
-    with open('proxy_list(all).txt', 'r') as file:
+    with open('proxy.txt', 'r') as file:
         proxies = file.read().splitlines()
 
     # launch
